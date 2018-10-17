@@ -21,7 +21,7 @@ then
   /Users/mczal/.rvm/gems/ruby-2.5.1/bin/rails s -p 3030
 fi
 
-if [ "$1" = "bank-soal" ]
+if [ "$1" = "soal" ]
 then
   echo "Loading context Training PPSDMK..."
   . /Users/mczal/.wg-context/lib/s3-training-ppsdmk-dev
